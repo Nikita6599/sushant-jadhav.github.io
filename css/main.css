@@ -1,0 +1,124 @@
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+.choose-we{
+  min-width: 40%;
+  display: flex;
+  color: inherit;
+  background-color: #eee;
+  margin-bottom: 0px;
+}
+.choose-img{
+  min-width: 53%;
+  
+}
+.choose-text{
+  min-width: 50%; 
+  padding:100px;
+}
+.choose-header{
+  margin-bottom: 20px;
+}
+.provide-service{
+  min-width: 40%;
+  color: inherit;
+  background-color: #eee;
+  margin-bottom: 0px;
+}
+.container-fluid{
+  padding: 60px 50px;
+}
+.slide{
+  /*margin-bottom:20px;*/
+}
+.slide h4{
+   text-transform: uppercase;
+}
+.offer{
+  margin-bottom: 30px;
+}
+.discount{
+  height: 130px;
+  color: inherit;
+  background-color: green;  
+}
+.discount button{
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.discount span{
+  margin-top: 10px;
+  margin:50px;
+}
+.discount-text{
+
+  font-size: 24px;
+}
+.footer-row{
+  margin-left: 100px;
+}
+
+.btn.outline {
+    background: none;
+    padding: 8px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #FFFFFF;
+    color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+
+.content-block-one {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
