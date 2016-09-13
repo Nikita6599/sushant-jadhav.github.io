@@ -17,7 +17,6 @@
 }
 .choose-img{
   min-width: 53%;
-  
 }
 .choose-text{
   min-width: 50%; 
@@ -61,9 +60,7 @@
 
   font-size: 24px;
 }
-.footer-row{
-  margin-left: 100px;
-}
+
 
 .btn.outline {
     background: none;
@@ -77,7 +74,16 @@
     color: #33a6cc;
     border-color: #33a6cc;
 }
-
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+  height:550px;
+}
+.green{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 200px;
+    background: #03C9A9;
+    /*color: white;*/
+}
 .content-block-one {
   padding: 30px;
   margin-bottom: 0px;
@@ -101,6 +107,9 @@
 }
 .content-block-one .container {
   max-width: 100%;
+}
+#footer{
+  padding-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .content-block-one {
