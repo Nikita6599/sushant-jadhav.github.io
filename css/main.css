@@ -60,8 +60,6 @@
 
   font-size: 24px;
 }
-
-
 .btn.outline {
     background: none;
     padding: 8px 22px;
@@ -112,6 +110,9 @@
   padding-top: 40px;
 }
 @media screen and (min-width: 768px) {
+  .navbar-default{
+    background-color: #f8f8f8;
+  }
   .content-block-one {
     padding-top: 48px;
     padding-bottom: 48px;
